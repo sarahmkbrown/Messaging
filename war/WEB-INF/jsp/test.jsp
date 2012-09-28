@@ -8,8 +8,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<c:forEach begin="0" end="3">
-		<p>Hi
+	<c:forEach begin="0" end="999999" varStatus="i">
+		<p>Hi ${i.count}
 		<p>
 	</c:forEach>
 </body>
